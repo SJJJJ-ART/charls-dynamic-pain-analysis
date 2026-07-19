@@ -1,0 +1,30 @@
+# Restricted CHARLS data and derived person-level data
+data/
+raw/
+derived/
+*.dta
+*.sav
+*.sas7bdat
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.zip
+*.rar
+*.csv.gz
+
+# Local outputs and caches
+results/private/
+**/private/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+
+# Office files and rendered manuscript outputs are not analysis inputs.
+*.docx
+*.pdf
+
+# Aggregate outputs are added explicitly after disclosure review.
