@@ -1,0 +1,18 @@
+{
+  "creators": [
+    {
+      "name": "Pan, Zhenwei"
+    }
+  ],
+  "title": "CHARLS dynamic pain transitions and BADL limitation analysis code",
+  "description": "Python reconstruction code and disclosure-safe aggregate validation outputs for a repeated-landmark study of pain-distribution transitions and subsequent basic activities of daily living limitation in CHARLS. Participant-level CHARLS records are not included. The README and validation report document reconstruction steps and remaining differences.",
+  "upload_type": "software",
+  "version": "v1.0.0",
+  "access_right": "open",
+  "keywords": [
+    "CHARLS",
+    "pain transitions",
+    "basic activities of daily living",
+    "reproducible analysis"
+  ]
+}

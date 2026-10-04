@@ -1,0 +1,30 @@
+sample:
+  intervals: 26574
+  events: 3983
+  participants: 11947
+  communities: 445
+  window_intervals: [9921, 8273, 8380]
+  window_events: [1489, 1064, 1430]
+
+headline:
+  model1_persistent_multisite:
+    rr: 3.4154567271
+    ci_low: 3.0533315756
+    ci_high: 3.8205299247
+  model2_persistent_multisite:
+    rr: 1.6521843669
+    ci_low: 1.4522130382
+    ci_high: 1.8796919670
+  persistent_multisite_standardized_risk: 0.3055454207
+  persistent_multisite_risk_difference: 0.2160858821
+
+sensitivity_counts:
+  Exclude proxy interviews: [25554, 3706]
+  Severe BADL: [26574, 969]
+  BADL or death: [27261, 4670]
+  Pain threshold ≥ Some/Somewhat: [26773, 4006]
+  Next-wave IADL limitation: [25403, 4147]
+
+archived_exploratory_phc:
+  ratio_of_rr: 0.8305254923
+  additive_interaction: -0.0507069761

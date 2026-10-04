@@ -1,0 +1,36 @@
+waves:
+  2011:
+    demographic: 2011/demographic_background.dta
+    health: 2011/health_status_and_functioning.dta
+    biomarker: 2011/biomarkers.dta
+    weights: 2011/weight.dta
+    community: 2011/community.dta
+  2013:
+    demographic: 2013/Demographic_Background.dta
+    health: 2013/Health_Status_and_Functioning.dta
+  2015:
+    demographic: 2015/Demographic_Background.dta
+    health: 2015/Health_Status_and_Functioning.dta
+    sample: 2015/Sample_Infor.dta
+  2018:
+    demographic: 2018/Demographic_Background.dta
+    health: 2018/Health_Status_and_Functioning.dta
+    cognition: 2018/Cognition.dta
+    sample: 2018/Sample_Infor.dta
+  2020:
+    health: 2020/Health_Status_and_Functioning.dta
+    sample: 2020/Sample_Infor.dta
+
+windows:
+  - number: 1
+    start: 2011
+    landmark: 2013
+    outcome: 2015
+  - number: 2
+    start: 2013
+    landmark: 2015
+    outcome: 2018
+  - number: 3
+    start: 2015
+    landmark: 2018
+    outcome: 2020
