@@ -1,0 +1,3 @@
+comparison,adjustment,rr,ci_low,ci_high,log_rr,se,imputations
+Persistent vs incident axial multisite pain,Model 1 covariates plus exact current pain-site count,1.4580116986065026,1.28764928788501,1.6509139043326657,0.37707365728987485,0.06339559117380521,30
+Persistent vs incident axial multisite pain,Model 1 covariates plus current site-count categories (0/1/2/3/4/5+),1.4933069730844923,1.3156770653688097,1.6949187415056646,0.40099310565063767,0.06461310914181617,30

@@ -76,6 +76,12 @@ python code/06_make_figures.py \
   --secondary-results-dir /private/path/secondary \
   --full-sensitivity-dir /private/path/full-sensitivities \
   --output-dir figures
+
+python code/07_compare_conventional_pain_measures.py \
+  --raw-dir /path/to/charls \
+  --primary-results-dir /private/path/results \
+  --output-dir /private/path/conventional-comparison \
+  --imputations 30 --folds 5
 ```
 
 The scripts require Python 3.12 and the packages listed in
@@ -95,6 +101,12 @@ The scripts require Python 3.12 and the packages listed in
   uncertainty intervals, and aggregate output integrity.
 - `06_make_figures.py` creates Figures 2–4 from disclosure-safe aggregate
   source files.
+- `07_compare_conventional_pain_measures.py` reports the landmark pain-site
+  count distribution, compares transition categories with current pain,
+  current site count, current pain distribution, and a conventional any-pain
+  persistence pattern using community-grouped five-fold cross-validation, and
+  re-estimates the persistent-versus-incident contrast after site-count
+  adjustment.
 
 ## Restricted-data policy
 
